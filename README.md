@@ -1,1 +1,8 @@
-# E.RAJESHWARI_DABB4246BC29FD696374C791D9AFABC9
+
+def factorial(n):
+if n ==0 or n == 1:
+return 1
+else:
+return n * factorial(n-1)
+
+printf(factorial(5))
